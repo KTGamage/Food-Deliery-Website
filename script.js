@@ -45,14 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// var swiper = new Swiper(".testimonialSlider", {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//   });
 
 var swiper = new Swiper(".testimonialSlider", {
   spaceBetween: 20,
