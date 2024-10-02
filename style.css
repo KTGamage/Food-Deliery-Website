@@ -1,5 +1,5 @@
 /* General Styles */
-body, html {
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -802,62 +802,13 @@ header {
 }
 
 
-
-/* Responsive Styles  for footer section*/
-@media screen and (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-message-form,
-    .footer-links {
-        min-width: 100%;
-    }
-
-    .footer-logo h2 {
-        margin-bottom: 15px;
-    }
-}
-
-
-
-
-
-/* Responsive Styles for Hero Section*/
-@media screen and (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2em;
-    }
-
-    .hero-content p {
-        font-size: 1em;
-    }
-
-    .cta-button, .secondary-button {
-        padding: 10px 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 1.5em;
-    }
-
-    .hero-content p {
-        font-size: 0.9em;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
+iframe{
+    width: 100%;
 }
 
 
 /* Responsive Styles Header Section */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .nav-links {
         display: none;
         flex-direction: column;
@@ -887,6 +838,51 @@ header {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-content p {
+        font-size: 0.9em;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+/* Responsive Styles for Hero Section*/
+@media screen and (max-width: 798px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .cta-button, .secondary-button {
+        padding: 10px 20px;
+    }
+
+    .hero {
+        height: 100vh;
+        background-image: url(Images/bg1.jpg); /* Replace with your own image URL */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+    }
+    
+}
 
 /* Responsive Styles for about us section*/
 @media screen and (max-width: 768px) {
@@ -1134,3 +1130,20 @@ header {
     }
 }
 
+/* Responsive Styles  for footer section*/
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-message-form,
+    .footer-links {
+        min-width: 100%;
+    }
+
+    .footer-logo h2 {
+        margin-bottom: 15px;
+    }
+}
