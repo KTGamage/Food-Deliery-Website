@@ -308,20 +308,7 @@ header {
     color: #ff6347;
 }
 
-.cta-button {
-    background-color: #ff6347;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background-color 0.3s;
-}
 
-.cta-button:hover {
-    background-color: #e5533f;
-}
 
 
 
