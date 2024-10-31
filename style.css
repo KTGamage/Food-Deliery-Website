@@ -91,7 +91,7 @@ header {
 
 .hero {
     height: 100vh;
-    background-image: url(Images/bg1.jpg); /* Replace with your own image URL */
+    background-image: url(Images/bg4.jpg); /* Replace with your own image URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -917,6 +917,7 @@ iframe{
 
     .cta-button {
         padding: 10px 15px;
+        font-size: 30px;
     }
 }
 
