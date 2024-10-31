@@ -333,6 +333,7 @@ header {
     padding: 0 15px 15px;
 }
 
+
 .price {
     font-size: 1.2em;
     color: #ff6347;
@@ -889,7 +890,7 @@ iframe{
 
     .hero {
         height: 100vh;
-        background-image: url(Images/bg1.jpg); 
+        background-image: url(Images/bg4.jpg); 
         background-position: center;
         background-size: cover;
         
@@ -946,8 +947,8 @@ iframe{
     }
 
     .cta-button {
-        padding: 10px 15px;
-        font-size: 30px;
+        padding: 15px 20px;
+        font-size: 10px;
     }
 }
 
