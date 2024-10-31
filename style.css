@@ -11,10 +11,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #222;
     color: #fff;
     position: relative;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
 }
 
 .logo a {
@@ -22,6 +29,13 @@ header {
     color: #fff;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.logo img{
+    width: 100%;
+    max-width: 50px; 
+    height: auto;
+    border-radius: 50%;
 }
 
 .logo span {
@@ -45,15 +59,31 @@ header {
     margin: 0 20px;
 }
 
+
 .nav-links ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 1em;
-    transition: color 0.3s;
+    position: relative; 
+    padding: 10px;
+    transition: color 0.3s, border 0.3s;
+}
+
+.nav-links ul li a::before {
+    content: ''; 
+    position: absolute;
+    inset: 0; 
+    border: 2px solid transparent; 
+    transition: all 0.3s ease; 
 }
 
 .nav-links ul li a:hover {
-    color: #ff6347;
+    color: #ff6347; /* Change the text color on hover */
+}
+
+.nav-links ul li a:hover::before {
+    border-color: #ff6347;
+    border-radius: 5px;
 }
 
 .nav-links .cta-button {
